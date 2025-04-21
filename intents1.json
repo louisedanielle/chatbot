@@ -1,0 +1,560 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey", "Hi", "Hello"
+      ],
+      "responses": [
+        "Hi! What can I help you?"
+      ]
+    },
+    {
+      "tag": "product_information",
+      "patterns": [
+        "What are Nedap OVR-line products?",
+        "Tell me about the iD Tops.",
+        "What do the OVR-line products do?",
+        "Can you explain the features of Nedap RFID readers?",
+        "How are these RFID readers used in retail?",
+        "What applications do the OVR-line products support?"
+      ],
+      "responses": [
+        "The Nedap OVR-line products (iD Tops) are ceiling-mounted integrated readers designed for ultra-high-frequency (UHF) RFID.",
+        "These products are specifically designed for in-store retail applications such as Electronic Article Surveillance (EAS), stock room to sales floor transition, and goods receiving.",
+        "Nedap OVR-line products are ideal for enhancing retail efficiency through applications like inventory management and theft prevention."
+      ]
+    },
+    {
+      "tag": "application_usage",
+      "patterns": [
+        "How are Nedap RFID readers used?",
+        "What is Electronic Article Surveillance?",
+        "Explain stock room to sales floor transition.",
+        "How can I use these readers in goods receiving?",
+        "In what situations would I need the OVR-line products?"
+      ],
+      "responses": [
+        "Nedap RFID readers are utilized for Electronic Article Surveillance (EAS) to prevent theft and protect merchandise.",
+        "They can streamline the stock room to sales floor transition by facilitating real-time inventory tracking.",
+        "These readers are essential in goods receiving to ensure accurate inventory management and immediate stock integration."
+      ]
+    },
+    {
+      "tag": "product_abbreviations",
+      "patterns": [
+        "What does RFID technology stand for?",
+        "Can you explain the term OVR?",
+        "What do the terms reader and OVR mean?",
+        "What are the abbreviations used in the product document?"
+      ],
+      "responses": [
+        "'RFID technology' stands for Ultra High-Frequency RFID technology.",
+        "'Reader' and 'OVR' are synonyms for the iD Top products.",
+        "In this context, 'RFID technology' refers to a specific type of technology used for tracking and identification."
+      ]
+    },
+    {
+      "tag": "box_contents",
+      "patterns": [
+        "What is included in the box of ASSY OV37R RFID R1 WHITE?",
+        "Can you list the box contents for ASYY OV37R RFID R2 WHITE?",
+        "What comes with ASSY OV37R RFID R3 WHITE?",
+        "Tell me the contents of the OVR37 Integrated Reader package."
+      ],
+      "responses": [
+        "The box for ASSY OV37R RFID R1 WHITE includes an OV37 integrated reader with Renos, RFID reader, and RFID antenna.",
+        "For ASSY OV37R RFID R2 WHITE, the box contains the OV37 integrated reader with Renos, RFID reader, and RFID antenna.",
+        "ASSY OV37R RFID R3 WHITE includes an OV37 integrated reader with Renos, RFID reader, and RFID antenna."
+      ]
+    },
+    {
+      "tag": "mounting_set_info",
+      "patterns": [
+        "Is there a mounting set for the OV37R?",
+        "What is included in the mounting set for OV37R?",
+        "Do I need to buy the mounting set separately?",
+        "Can you tell me about the mounting set OV37R steel cable?"
+      ],
+      "responses": [
+        "The mounting set, including steel cabling, is available as a separate article and is not included in the unit's box.",
+        "For more information about the mounting set OV37R, please refer to the Nedap Retail Partner Portal.",
+        "The article number for the mounting set OV37R steel cable is 9983007."
+      ]
+    },
+    {
+      "tag": "product_components",
+      "patterns": [
+        "What are the components of the OVR?",
+        "Can you list the parts in the OVR line?",
+        "What is the Renos unit?",
+        "Tell me about the RFID reader in the OVR."
+      ],
+      "responses": [
+        "The OVR line includes several components: 1) Lights, which can be used for user feedback or alarms; 2) RFID antenna; 3) RFID reader, which reads RFID labels; 4) Renos unit, the central processing unit; and 5) Buzzer, which can also provide user feedback or alarms.",
+        "The Renos unit powers the system and facilitates communication between units and the outside world."
+      ]
+    },
+    {
+      "tag": "product_dimensions",
+      "patterns": [
+        "What are the dimensions of the OVR gates?",
+        "Can you provide the size specifications for the mounting plate?",
+        "How big is the OV37R unit?",
+        "What are the measurements of the OVR?"
+      ],
+      "responses": [
+        "The dimensions of the OVR gates are: width 305 mm (11.99 in), height 377 mm (14.84 in), and depth 87 mm (3.43 in).",
+        "The mounting plate can be used for wall or ceiling mount and is also connected to a VESA mount.",
+        "Overall, the OVR unit dimensions are 377 mm (12.65 in) for the height and 275 mm (10.83 in) for the depth."
+      ]
+    },
+    {
+      "tag": "renos_connections",
+      "patterns": [
+        "What connectors are on the Renos unit?",
+        "Can you describe the usage of connectors on the Renos unit?",
+        "What is the purpose of the USB port on the Renos?",
+        "Explain the Network IN and OUT connectors."
+      ],
+      "responses": [
+        "The Renos unit has several connectors: 1) 50 ohm (not used in the OVR line), 2) Infrared beams (connect to the lights), 3) Add-on (provides power and sync for add-ons like the RFID reader), 4) Network IN (connects to the previous Renos unit or a Power Inserter), 5) USB (connect accessories like the RFID reader), 6) Network OUT (connects to the next unit or Power Inserter, can be unused), 7) Mini USB service port (connect your laptop for configuration), 8) RS485 connector (not used in OVR line), 9) Buzzer connector (connect to the included buzzer)."
+      ]
+    },
+    {
+      "tag": "installation_preparation",
+      "patterns": [
+        "What should I consider when preparing the installation for OVR products?",
+        "How do I install the iD Tops?",
+        "What factors do I need to evaluate for OVR installation?",
+        "Can you outline the steps for preparing the OVR installation?"
+      ],
+      "responses": [
+        "When preparing an installation with OVR-line products, consider the following: 1) How many iD Tops (OVRs) are needed for an entrance or door? 2) Placement concerning the environment (walls and other objects). 3) The number of Power Inserters required to power the system. 4) Firewall settings for enabling Device Management. 5) Orientation of the product."
+      ]
+    },
+    {
+      "tag": "defining_system",
+      "patterns": [
+        "How should I define the system for multiple iD Tops?",
+        "What rules should I follow for combining iD Tops?",
+        "Can you explain the maximum cable length requirements?",
+        "What are the recommendations for multiple installations?"
+      ],
+      "responses": [
+        "When defining the system with multiple iD Tops, consider the following rules: 1) A different role is a separate system; combine iD Tops for EAS with those for sales floor installation is impossible. 2) Within the EAS role, combine all iD Tops into one system, as the Renos platform has a synchronization mechanism for RFID technology. 3) Maximum cable length requirements must be considered; if you exceed them, split the installation into two or more systems."
+      ]
+    },
+    {
+      "tag": "detection_distance_and_aisle_width",
+      "patterns": [
+        "What is the recommended height for the OVR?",
+        "How should I place the OVRs for optimal performance?",
+        "What are the aisle width recommendations for OVRs?",
+        "Can you explain the detection distance for RFID?"
+      ],
+      "responses": [
+        "The recommended height for the OVR is 2.5 m (8.2 ft). A lower OVR height results in a smaller and more controlled RFID field, leading to more stable performance.",
+        "It is possible to mount an OVR between 250 cm (8.2 ft) and 350 cm (11.5 ft) height.",
+        "We recommend placing the OVRs at an aisle width of 220 cm (7.2 ft) to 250 cm (8.2 ft), depending on the entrance space."
+      ]
+    },
+    {
+      "tag": "rfid_installation_requirements",
+      "patterns": [
+        "What are the RFID installation requirements?",
+        "How does RFID technology differ from RF technology in installations?",
+        "What is the recommended label-free zone for RFID?",
+        "Can you explain the tag muting feature?"
+      ],
+      "responses": [
+        "For RFID installations, it's recommended to have a label-free zone of more than 150 cm (4.9 ft) from the center of the antenna.",
+        "RFID technology has different installation requirements compared to RF. The RFID field is less strictly defined, leading to a larger detection area for tags.",
+        "The RFID reader's maximum throughput is around 200 tag reads per second. When tags are close together, the reader may be busier, which could impact performance and lead to some tags being muted.",
+        "This feature is known as 'Automatic Tag Muting,' where some tags in proximity are muted to allow the reader to monitor others without causing an alarm."
+      ]
+    },
+    {
+      "tag": "metal_surfaces_rfid",
+      "patterns": [
+        "How do metal surfaces affect RFID installations?",
+        "What should be avoided near RFID readers?",
+        "Can you explain the impact of metal on detection fields?",
+        "What are the installation guidelines for metal surfaces?"
+      ],
+      "responses": [
+        "Metal surfaces can reflect the RFID field, confusing the Dynamic Beam Steering algorithms and altering the detection field. Avoid placing metallic surfaces near readers.",
+        "The front and back areas of the unit must be completely metal-free to ensure optimal performance.",
+        "If it's impossible to maintain a metal-free zone due to installation requirements, this may cause false alarms and reduced detection quality."
+      ]
+    },
+    {
+      "tag": "power_inserter_info",
+      "patterns": [
+        "What is the function of the Power Inserter?",
+        "How many Renos units can connect to a Power Inserter?",
+        "What are the specifications for the Power Inserter?",
+        "Can I use any Power-over-Ethernet switch with Renos?"
+      ],
+      "responses": [
+        "The Power Inserter is used to power Renos systems, and a maximum of 5 Renos units can be connected to one Power Inserter for both 230V and 115V configurations.",
+        "Please note that you must only use a Nedap Power Inserter to power Renos systems; generic Power-over-Ethernet switches or standalone inserters are not compatible.",
+        "It is recommended to connect the Power Inserter to an always-on power socket, which allows for continuous system monitoring and remote firmware updates.",
+        "When handling network cables in the system, always disconnect the power cable from the Power Inserter(s) first while ensuring the system is powered off."
+      ]
+    },
+    {
+      "tag": "orientation_of_products",
+      "patterns": [
+        "How should the RFID readers be oriented?",
+        "What indicates the correct orientation for the OVR products?",
+        "Can you explain the importance of orientation in RFID installations?"
+      ],
+      "responses": [
+        "All RFID readers must be oriented in the same way due to their orientation sensitivity. An arrow in the product bracket indicates the correct orientation.",
+        "If the orientation procedure is not executed correctly, the RFID technology will not function properly."
+      ]
+    },
+    {
+      "intent": "cabling_instructions",
+      "patterns": [
+        "What is the cabling procedure for the OVR line?",
+        "How do I connect the Renos units?",
+        "Can you explain the daisy chain topology for connections?"
+      ],
+      "responses": [
+        "The OVR line uses a daisy chain topology for cabling. The connections should follow this sequence: 1) A cable from a Power Inserter OUT to a Renos unit IN. 2) From that Renos unit OUT to the next Renos unit IN, and so on.",
+        "Ensure that the cabling is implemented properly once the basis placement and orientation are confirmed."
+      ]
+    },
+    {
+      "intent": "ethernet_cabling_info",
+      "patterns": [
+        "What type of cable is used for the iSense system?",
+        "How should I connect the units on the sales floor?",
+        "What are the cable specifications for the iSense system?",
+        "Can you explain the termination standards for Ethernet cables?"
+      ],
+      "responses": [
+        "The iSense units are connected only via an Ethernet cable and should be wired from right to left when standing on the sales floor looking outside the store.",
+        "Use UTP Cat5e with a stranded copper core, and a core diameter of 24 AWG (0.51 mm).",
+        "Always connect all four pairs of wires using the T568B termination standard or the T568A standard if specifically required.",
+        "Never use CCA (copper clad aluminum) or CCS/CCF (copper clad steel) cables."
+      ]
+    },
+    {
+      "intent": "ethernet_termination_standards",
+      "patterns": [
+        "What are the T568A and T568B pinout specifications?",
+        "Can you explain the differences between T568A and T568B?",
+        "How should I wire an Ethernet cable using T568A or T568B?"
+      ],
+      "responses": [
+        "The T568A and T568B standards are used for terminating Ethernet cables. Below are the pinout specifications: ",
+        "T568A: 1-Green + White, 2-Green, 3-Orange + White, 4-Blue, 5-Blue + White, 6-Orange, 7-Brown + White, 8-Brown.",
+        "T568B (Preferred): 1-Orange + White, 2-Orange, 3-Green + White, 4-Blue, 5-Blue + White, 6-Green, 7-Brown + White, 8-Brown.",
+        "When terminating cables, T568B is the preferred standard. Ensure to follow the pin configuration to avoid connectivity issues."
+      ]
+    },
+    {
+      "intent": "cable_length_and_connections",
+      "patterns": [
+        "What is the maximum cable length between a Power Inserter and a Renos unit?",
+        "How long can cables be between Renos units?",
+        "Are there any recommendations for cable connections?",
+        "What should I consider about cable lengths in my setup?"
+      ],
+      "responses": [
+        "The maximum cable length is 80 meters (250 ft) between a Power Inserter and the last Renos unit receiving power from that Power Inserter.",
+        "Similarly, the maximum cable length is also 80 meters (250 ft) between Renos units (excluding Power Inserters) and between the first (or last) Renos unit and the WAN connection in the store.",
+        "You can use your own preferred connectors, but ensure they're suitable for the cable used and that the correct crimping tool is applied.",
+        "It's recommended to place the Power Inserter in the switch room (near a power socket) to allow for proper ethernet cable lengths.",
+        "If the cable lengths between two groups exceed approximately 50 meters (164 ft), consider splitting the system into two."
+      ]
+    },
+    {
+      "intent": "installation_instructions",
+      "patterns": [
+        "How do I remove the cover for installation?",
+        "What are the steps for physical installation of the reader?",
+        "Can you explain how to mount the unit on the ceiling?",
+        "What should I know about the steel cabling set?"
+      ],
+      "responses": [
+        "To remove the cover, gently push a screwdriver at the indicated location and hold the screwdriver while sliding the cover towards the indicated direction.",
+        "The reader can be mounted on the ceiling, wall, or with a VESA-compatible mount. For ceiling installation, mount the unit in a 'V' shape to prevent it from swinging due to wind or heaters.",
+        "Please note that the installation set with steel cabling is a separate article and is not included in the unit's box. For more information, refer to the Nedap Retail Partner Portal."
+      ]
+    },
+    {
+      "intent": "mounting_instructions",
+      "patterns": [
+        "What steps should I follow for mounting the unit?",
+        "How do I install the base unit on the ceiling?",
+        "Can you explain the mounting process for the reader?",
+        "What do I need to know about the mounting plate?"
+      ],
+      "responses": [
+        "To mount the unit, follow these steps: 1) Mark the drilling holes in the ceiling. 2) Drill the holes and install the plugs. 3) Mount the base unit with the threaded rod using a 4x40 screw. 4) Slide the steel cable through the bus unit (ensuring the round sphere is on top) and screw it onto the base unit. 5) Slide the adjustable hook over the steel cable. To release it, press the indicated button on the hook.",
+        "Remember to place the mounting plate back in the unit once installation is complete, as it also serves as dust protection for the inner components."
+      ]
+    },
+    {
+      "intent": "vesa_mount_installation",
+      "patterns": [
+        "How do I install a VESA mount?",
+        "What are the VESA mounting specifications?",
+        "Can you explain the installation process for the reader with a VESA mount?",
+        "What are the dimensions for the VESA compatible mount?"
+      ],
+      "responses": [
+        "The mounting plate has the following VESA-compatible mounts: MIS-D 75mm (75 x 75 mm / 2.95 x 2.95 in) and MIS-D 100 mm (100 x 100 mm / 3.93 x 3.93 in). Both use M4 screws with a length of 7.4 mm (291 mil) excluding the bracket.",
+        "To install the reader with a VESA mount, follow these steps: 1) Mount the VESA mount to the mounting plate. 2) Install all cabling to the reader. 3) Slide the reader over the mounting plate as indicated in the picture."
+      ]
+    },
+    {
+      "intent": "cabling_installation",
+      "patterns": [
+        "How do I install Ethernet cabling?",
+        "What are the steps for connecting the Renos units?",
+        "Can you explain how to connect the cables correctly?",
+        "What should I do after creating a new Ethernet cable?"
+      ],
+      "responses": [
+        "To install Ethernet cabling, connect the Ethernet cable from the OUT port of one Renos unit to the IN port of the next Renos unit. In all aisles, make sure to connect the Ethernet OUT port with the IN port of the next unit, following the direction of the arrows indicated in the cabling.",
+        "It is crucial to test every newly created Ethernet cable with an Ethernet cable tester for all four pairs (eight wires) to prevent future errors."
+      ]
+    },
+    {
+      "intent": "renos_status_leds",
+      "patterns": [
+        "What do the status LEDs on the Renos unit mean?",
+        "Can you explain the LED indicators for the Renos unit?",
+        "What is the meaning of the different LED colors and statuses?",
+        "How can I check the status of my Renos unit using LEDs?"
+      ],
+      "responses": [
+        "Here are the status LED explanations for the Renos unit:",
+        "1. **Green LED**: On - There is a Renos unit connected to the OUT port of this unit. Off - There is no Renos unit connected.",
+        "2. **Blue LED**: Blinking - There is no device connected to the OUT port. On - There is a Power Inserter connected.",
+        "3. **Red LED**: On - There is an issue with the power supply at the OUT port (too little current drawn). Blinking - There is an issue with the supply (too much current drawn). Off - No issue with the power supply.",
+        "4. **Yellow LED**: Blinking - The operating system on the Renos unit is running. Off - The operating system is not running.",
+        "5. **Green LED (storage)**: Blinking - The storage flash is accessed. Off - The storage flash is not accessed.",
+        "6. **Green LED (firmware)**: On - The firmware on the Renos unit is running."
+      ]
+    },
+    {
+      "intent": "rfid_reader_status_leds",
+      "patterns": [
+        "What do the status LEDs on the RFID reader mean?",
+        "Can you explain the LED indicators for the RFID reader?",
+        "What are the meanings of the different LED colors and statuses for the RFID reader?",
+        "How can I check the status of my RFID reader using LEDs?"
+      ],
+      "responses": [
+        "Here are the status LED explanations for the RFID reader:",
+        "1. **Blue LED**: On - The RFID Reader is connected to the Renos firmware. Blinking - The RFID Reader has received a command from the Renos firmware. Off - The RFID reader is NOT connected.",
+        "2. **Orange LED**: Blinking slow - The firmware on the RFID Reader is running. Off - The firmware on the RFID reader is NOT running.",
+        "3. **Red LED**: On - There is an error with the RFID output.",
+        "Please note that if the Renos unit has a firmware error, the rightmost three LEDs (4, 5, and 6) will remain off when powered. This can be resolved via a 'Local - single unit' firmware update, as described in the 'Sense firmware version manual.'"
+      ]
+    },
+    {
+      "intent": "rfid_reader_status_leds_additional",
+      "patterns": [
+        "What do the status LEDs mean for the RFID Reader?",
+        "Explain the LED indicators for the RFID output.",
+        "What are the meanings of the additional LED statuses for the RFID reader?",
+        "How can I check the RFID output status using LEDs?"
+      ],
+      "responses": [
+        "Here are the additional status LED explanations for the RFID reader:",
+        "4. **Green LED (RFID output)**: On - The RFID output is active. Blinking - The reader is reading RFID labels. Off - The RFID output is NOT active.",
+        "5. **Green LED (power)**: On - The Renos unit powers the RFID reader. Off - The Renos unit does NOT power the RFID reader.",
+        "Note: The RFID reader will not be active when the system has not been configured yet. At that point, only the 'firmware running' orange LED will be blinking."
+      ]
+    },
+    {
+      "intent": "installation_configuration",
+      "patterns": [
+        "What tools are needed for configuring the installation?",
+        "How do I install the driver for the iSense system?",
+        "What operating systems are supported for driver installation?",
+        "Which browsers are compatible with the system?"
+      ],
+      "responses": [
+        "To configure the installation, you will need the following tools: 1) Mini-USB cable. 2) Laptop with an installed driver and a recent browser.",
+        "For driver installation: A driver is needed for Windows. The requirements for each operating system are as follows:\n- **Windows**: Download the driver from the portal.\n- **Mac OS X**: You don’t need to install a driver.\n- **Linux**: You don't need to install a driver.\nMake sure to check if the driver works by plugging it into a Renos unit.",
+        "Supported browsers for configuration include the latest versions of:\n- Google Chrome\n- Mozilla Firefox\n- Apple Safari\nIf you don’t have one of these installed on your laptop, please install them before proceeding with the installation."
+      ]
+    },
+    {
+      "intent": "connecting_laptop",
+      "patterns": [
+        "How do I connect my laptop to the Renos unit?",
+        "What type of USB cable should I use to connect to the Renos?",
+        "How do I enter the configuration wizard for the Renos unit?",
+        "What should I do when connecting a laptop to the Renos?"
+      ],
+      "responses": [
+        "You can connect your laptop via a Mini-USB cable to the service port on the Renos unit. In the iSense system, you can choose any Renos unit.",
+        "We recommend using a good-quality USB cable about 5m / 16ft long for better comfort during setup, as this allows you to place your laptop in a more convenient location. Additionally, some laptops may interfere with RF technology, so setting them further away can help.",
+        "It's advisable to configure the Renos unit using a ferrite ring core filter around the mini USB cable. These can be ordered as spare parts from Nedap. Check the Nedap Retail Portal for more info.",
+        "To enter the configuration wizard, open your browser and navigate to: http://192.168.133.1. Make sure that no other network connections are active in the same range."
+      ]
+    },
+    {
+      "intent": "authentication",
+      "patterns": [
+        "How do I authenticate during configuration?",
+        "What steps do I need to take for authentication?",
+        "What if I can't connect to Device Management?",
+        "How can I get help in the wizard?"
+      ],
+      "responses": [
+        "During the configuration, you are required to authenticate yourself. The method depends on the availability of Device Management.",
+        "1. If the system is connected to Device Management, you can enter your Nedap Retail username and password directly.",
+        "2. If the system is not connected to Device Management and you don't have a Nedap Retail authentication software, consider the following options:\n   - If your laptop can connect to Device Management via a 4G/5G router or Wi-Fi, use this option to enter your credentials.\n   - If that option isn't available, you can use your smartphone.\n   - If your smartphone has no internet access, call your main technician for an authentication code.",
+        "For more details on obtaining a Nedap Retail username and password, please reach out to support.",
+        "If you need clarification while using the wizard, look for the question mark button on the top right corner of each page. Clicking it will provide more information on what's expected on that specific page."
+      ]
+    },
+    {
+      "intent": "firmware_change_and_factory_reset",
+      "patterns": [
+        "How do I perform a firmware change on a Renos-based system?",
+        "What are the steps to factory reset a Renos-based system?",
+        "How can I update the firmware on my Renos unit?",
+        "What is the System ID and why do I need it?"
+      ],
+      "responses": [
+        "It is essential to use the latest firmware version and start new installations with factory default units. Here’s how to perform a firmware update and factory reset:",
+        "### Firmware Change\nThere are four ways to change the firmware version on a Renos-based system:\n1. **Local—single unit overwrite**: Insert a USB stick with the correct firmware into the USB port to execute the overwriting.\n2. **Local—complete system overwrite**: You can execute this from your laptop during the configuration wizard.\n3. **Local - complete system update**: This can also be executed during the configuration wizard.\n4. **Device Management update**: This update can be executed via the Device Management service.",
+        "### Factory Default\nThere are two ways to factory default a Renos-based system:\n1. **Local - single unit overwrite**: Use a USB cable to connect the USB port to the service port for the factory default.\n2. **Local - complete system factory default**: Execute this during the configuration wizard.",
+        "### System ID\nYou need the System ID to set up a Device Management system. The firmware version is displayed in the top right corner of the configuration wizard. Clicking on the firmware version shows a pop-up with the System ID during the configuration."
+      ]
+    },
+    {
+      "intent": "integration_with_other_systems",
+      "patterns": [
+        "How can I integrate the iSense installation with other systems?",
+        "What are local APIs for software integration?",
+        "What is the recommendation for integrating the iSense product?",
+        "Where can I find more information on software integration?"
+      ],
+      "responses": [
+        "Integrating the iSense product into other solutions by the end customer is highly recommended.",
+        "The Renos platform provides local API endpoints for data analysis and status information.",
+        "For more details, please refer to the Software Integration page on the Nedap Retail portal, which includes documentation and examples."
+      ]
+    },
+    {
+      "intent": "servicing_installation",
+      "patterns": [
+        "How can I service the installation after it's completed?",
+        "What is Device Management in Nedap systems?",
+        "What functionalities does the Device Management platform provide?",
+        "How can I monitor the iSense systems locally?"
+      ],
+      "responses": [
+        "Once the installation is complete, it can be serviced via Nedap Device Management. Monitoring options are also available locally using SNMP.",
+        "### Device Management\nNedap Retail systems can connect to the online Device Management platform to manage systems remotely and ensure optimal global performance. The platform offers the following main functions:\n1. **Monitoring**: Critical system parameters are monitored 24/7. Alerts are generated if there are issues.\n2. **Remote Service**: Authorized Nedap-certified engineers can access the system for configuration changes.\n3. **Firmware Update**: Engineers can install new firmware remotely using the Device Management website.\n4. **Data Collection**: Events per system are tracked for analytics reporting.\n5. **Sleep mode**: Helps conserve energy during non-operational hours as per the configured schedule.",
+        "For more details about network information, please refer to the document on the portal.",
+        "### SNMP\nSimple Network Management Protocol (SNMP) is available for local monitoring of iSense systems. For instance:\n- If one or more Renos units are unreachable.\n- If the system is connected to Device Management.\nYou can access the SNMP using the URL format: `http://<ip address of the system>/snmp`, e.g., `http://192.168.133.1/snm` when connected to the USB service port."
+      ]
+    },
+    {
+      "intent": "troubleshooting_physical_installation",
+      "patterns": [
+        "What should I do if the red LED on the Renos unit is on?",
+        "Why is the red LED on the Renos unit blinking?",
+        "What if the green LED on the Renos unit is off?",
+        "How do I troubleshoot the RFID reader issue?"
+      ],
+      "responses": [
+        "### Symptoms and Solutions\n1. **Red LED (3) on a Renos unit is ON**:\n   - **Cause**: The current drawn out of the OUT port is too low.\n   - **Solution**: Verify whether the cabling length in the system satisfies the requirements posed earlier in this document.\n   - **Cause**: The connectors of the Ethernet cable at the OUT port of the Renos unit are not mated properly.\n   - **Solution**: Check the Ethernet cable at the OUT port of the Renos unit with an Ethernet cable tester.\n\n2. **Red LED (3) on a Renos unit is BLINKING**:\n   - **Cause**: The current drawn out of the Renos unit's OUT port is too high.\n   - **Solution**: Verify the number of Renos units and add-ons connected to the Power Inserters with the table in this document.\n   - **Cause**: A short circuit in the cabling leaves this Renos unit's OUT port.\n   - **Solution**: Check the Ethernet cable at the OUT port of the Renos unit with an Ethernet cable tester.\n\n3. **Green LED (1) on a Renos unit is OFF**:\n   - **Cause**: There is an issue in the cabling between those units.\n   - **Solution**: Check Ethernet cabling with an Ethernet cable tester.\n\n4. **Red LED (3) on the RFID reader is ON**:\n   - **Cause**: The RFID reader is having trouble starting to read.\n   - **Solution**: Log in to the Renos configuration interface to see the exact error."
+      ]
+    },
+    {
+      "intent": "troubleshooting_configuration",
+      "patterns": [
+        "What do I do if I can't access the configuration web interface?",
+        "Why is the configuration not starting on the Renos unit?",
+        "How can I fix cabling errors during configuration?",
+        "What if my RFID is configured incorrectly?"
+      ],
+      "responses": [
+        "### Symptoms and Solutions\n1. **Cannot access the configuration web interface**:\n   - **Cause**: The Renos unit has not started yet.\n   - **Solution**: Verify the green \"firmware running\" LED on the Renos unit (6). If this LED is not on, verify the system has power or wait five minutes and try again.\n\n2. **Mini USB cable not attached to Renos unit and laptop**:\n   - **Solution**: Attach the cable to the Renos unit and laptop.\n\n3. **Driver not installed**:\n   - **Solution**: On Windows 7 and older, you need to manually install a driver to support Renos.\n\n4. **WAN access port is closed**:\n   - **Cause**: The WAN access port will be 'closed' for internal network traffic during configuration.\n   - **Solution**: If you combine two systems later, this needs to be re-opened.\n\n5. **Cabling error**:\n   - **Solution**: Please check all Ethernet cabling with an Ethernet cable tester.\n\n6. **Not all Power Inserters are powered**:\n   - **Cause**: Some Renos units are not fully started.\n   - **Solution**: Verify the green \"firmware running\" LED on the Renos unit (6). If this LED is not on, verify the system has power, or wait five minutes and try again.\n\n7. **Three LEDs (4, 5, and 6) are on, indicating a firmware failure**:\n   - **Solution**: Something might have gone wrong with a firmware update.\n\n8. **Gates positioned incorrectly**:\n   - **Solution**: Check the \"Orientation of products\" section in the manual and correct the orientation of the gates."
+      ]
+    },
+    {
+      "intent": "warranty_and_spare_parts",
+      "patterns": [
+        "What are the warranty conditions for this product?",
+        "Can I use this product for other purposes?",
+        "How do I apply for a warranty?",
+        "Where can I get spare parts for my product?"
+      ],
+      "responses": [
+        "### Warranty and Spare Parts\n1. Please consult the Nedap Retail Business Partner from whom you purchased this product regarding the applicable warranty conditions.\n2. This product cannot be used for any other purpose described in this document.\n3. If the product is not installed according to this document, the warranty provided is not applicable.\n4. At the discretion of Nedap N.V., they may decide to change the conditions of the warranty policy outlined in page 7 of the compliance information for technical manuals.\n5. You agree that Nedap N.V. can compensate you for the pro-rata value of the warranty rather than replacing or repairing based on its technical or economical value.\n6. Before applying for the warranty, ensure you comply with the warranty conditions and can successfully apply for the replacement or repair of a defective part.\n7. Parts can only be replaced with original Nedap parts; otherwise, the warranty will not apply to the product.\n8. If the warranty applies, please contact the dealer or send the defective parts to the dealer."
+      ]
+    },
+    {
+      "intent": "regulatory_information",
+      "patterns": [
+        "What is the FCC and IC compliance statement?",
+        "What are the FCC and IC radiation exposure requirements?",
+        "How should the equipment be installed according to regulations?",
+        "What should I know about FCC information for the user?"
+      ],
+      "responses": [
+        "### Regulatory Information\n1. **FCC and IC Compliance Statement**:\n   - This device complies with part 15 of the FCC Rules and RSS210 of Industry Canada. Operation is subject to the following conditions:\n     - (1) This device may not cause harmful interference.\n     - (2) This device must accept any interference received, including interference that may cause undesired operation.\n   - Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.\n\n   - **French Translation**: L'équipement est conforme aux normes CNRE210 exemptées de licence du Canada. L'opération est soumise aux conditions suivantes:\n     - (1) cet appareil ne doit causer aucune interférence.\n     - (2) cet appareil doit accepter toutes interférences, y inclus l'interférence qui peut causer une opération non souhaitée.\n\n2. **FCC and IC Radiation Exposure Statement**:\n   - This equipment complies with FCC and Canada radiation exposure limits for an uncontrolled environment. It should be installed and operated with a minimum distance of 20 cm between the radiator and your body. This equipment may be operated at higher power levels if the professional environment confirms it.\n   - Equipment should not operate in any condition that exceeds a limit of 20 mW effective radiated power.\n\n   - **Class B Digital Equipment**: This Class B digital apparatus complies with Canadian ICES-3. Cet appareil numérique de classe B est conforme à la norme Canadienne NMB-3.\n\n3. **FCC Information to the User**:\n   - Note: This equipment has been tested and found to comply with the limits for class B digital devices, according to part 15 of the FCC Rules. These limits are designed to protect reasonably against harmful interference in a residential installation. This equipment generates, uses, and can radiate radio frequency energy."
+      ]
+    },
+    {
+      "intent": "additional_regulatory_information",
+      "patterns": [
+        "What should I do if I experience interference with radio communications?",
+        "How can I correct harmful interference?",
+        "What are the changes that may affect compliance with FCC regulations?"
+      ],
+      "responses": [
+        "### Additional Regulatory Information\nIf this equipment is not installed and used following the instructions, it may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If harmful interference to radio or television reception does occur, it can be determined by turning the equipment off and on. If this is the case, the user is encouraged to try to correct the interference by:\n1. Reorienting or relocating the receiving antenna.\n2. Increasing the separation between the equipment and the receiver.\n3. Connecting the equipment to an outlet on a circuit different from the receiver's.\n\n### Important Note:\nAny changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment. To ensure compliance with FCC regulations, please use only the shielded interface cables provided with the product or additional specified components or accessories for installation."
+      ]
+    },
+    {
+      "intent": "ce_weee_information",
+      "patterns": [
+        "What is CE WEEE?",
+        "What are the requirements under Directive 2002/96/EC?",
+        "How is electrical equipment marked for CE WEEE compliance?"
+      ],
+      "responses": [
+        "### CE WEEE Information\nThis European Standard specifies a marking:\n1. Of electrical and electronic equipment following Article 11(2) of Directive 2002/96/EC (WEEE). This is in addition to the marking requirement in Article 10(3) of this Directive, which requires producers to mark electrical and electronic equipment put on the market after 13 August 2005 with a 'crossed-out wheeled bin' symbol.\n\n2. It applies to electrical and electronic equipment falling under Annex IA of Directive 2002/96/EC, provided the equipment concerned is not part of another type of equipment that does not fall within the scope of this Directive. Annex IB of Directive 2002/96/EC contains an indicative list of the products that fall under the categories set out in Annex IA of this Directive.\n\n3. The marking identifies the equipment producer clearly and indicates that the equipment has been put on the market after 13 August 2005."
+      ]
+    },
+    {
+      "intent": "ce_ukca_declaration",
+      "patterns": [
+        "What is the CE - UKCA Declaration of Conformity?",
+        "What directives is the equipment compliant with?",
+        "How should I dispose of this product?"
+      ],
+      "responses": [
+        "### CE - UKCA Declaration of Conformity\nNedap N.V. declares that the subject equipment is in compliance for CE with directives 2014/53/EU (Radio Equipment Directive) and 2011/65/EU (RoHS). For UKCA with SI 2017/1206 (Radio Equipment Regulations 2017) and with SI 2012/3032 UK Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment Regulations 2012 (RoHS).\n\nThe full text of the declarations of conformity is available at the following internet address: [Nedap Retail](https://portal.nedapretail.com/), where, if applicable, REACH information can also be found.\n\n### Disposal of This Product\nThis product's owner or last user is responsible for properly disposing of (parts of) the product as required by local rules and regulations."
+      ]
+    },
+    {
+      "intent": "about_nedap",
+      "patterns": [
+        "What does Nedap do?",
+        "How does Nedap help retailers?",
+        "What is the vision of Nedap regarding inventory visibility?",
+        "How can I contact Nedap for support?"
+      ],
+      "responses": [
+        "### About Nedap\nTogether, we make merchandise simply available.\n\nAt Nedap, we believe in 'Technology for Life'. Nedap Retail enables retailers to serve their customers better. Using technology, we allow for perfect inventory visibility, total control, no waste, and no losses.\n\n### Our Vision for Inventory Visibility\nToday, established retailers need more information about where their items are. Without this knowledge, providing an omnichannel experience leads to heavy overstocking, waste, and eroding margins. Solving this requires a fundamental change in the retailers' supply chain and information systems.\n\nOur mission is to simplify the process of ensuring that retailers always have the right products available at the right place and time.\n\nWe achieve this by giving retailers perfect inventory visibility for a seamless shopping experience. This way, retailers can meet the changing consumer needs while remaining profitable.\n\nNedap works with the largest and most successful retailers in the world. We take complete ownership of our projects—failure is never an option. A unique combination of the best technology and industry teams at Nedap Retail achieves this.\n\nNedap solutions are built upon 45 years of global experience, market expertise, and close cooperation with leading retailers. A flexible network of certified partners worldwide supports our worldwide operations. Nedap systems are future-proof (RFID-ready), cost-efficient, and Eco-friendly. Our mission is to ensure retailers' customers maintain the best shopping experience while we help retailers protect their profits.\n\n### Contact\nIf you need further details or help preparing, executing, or servicing an installation, please contact our support team at support-retail@nedap.com.\n\nSuggestions for improving our products and documentation are much appreciated."
+      ]
+    }
+  ]
+}
