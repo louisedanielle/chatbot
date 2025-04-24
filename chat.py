@@ -40,11 +40,6 @@ def get_response(msg):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    # Debugging prints
-    print("Tokenized input:", sentence)
-    print("Model output:", output)
-    print("Predicted tag:", tag, "with probability:", prob.item())
-
     if prob.item() > 0.5:  # Lowered threshold
         for intent in intents['intents']:
             if 'tag' in intent and tag == intent['tag']:
